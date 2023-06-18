@@ -1,0 +1,21 @@
+.touch-ball-cursor {
+  position: fixed;
+  top: -10px;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 60%;
+  background-color: #FCCD04;
+  opacity: 0.8;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.2s ease;
+}
+
+.touch-ball-cursor.visible {
+  transform: scale(1);
+}
+
+.touch-ball-cursor.hidden {
+  transform: scale(0);
+}
