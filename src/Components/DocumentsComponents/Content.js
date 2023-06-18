@@ -44,6 +44,7 @@ const Content = () => {
 
     return (
         <div className="w-full md:w-1/2 p-8">
+            <p className="text-sm text-gray-700 font-semibold mb-2">- Documentation</p>
             <h1 className="text-4xl font-bold mb-2">Installation</h1>
             <p className="mb-2">Follow the steps below to install the library:</p>
             <div className="flex space-x-4 mb-4">

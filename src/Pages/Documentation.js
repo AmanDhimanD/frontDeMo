@@ -10,6 +10,7 @@ const Documentation = () => {
     <>
       <div className="container mx-auto flex flex-col md:flex-row">
         <LeftSideBar className="md:w-1/4" />
+        
         <Content className="md:w-1/2" />
         {/* <RightSideBar className="md:w-1/4" /> */}
       </div>
